@@ -1,0 +1,12 @@
+# Python 3.14 ile test edildi
+pandas==3.0.1
+numpy==2.4.2
+scikit-learn==1.8.0
+lightgbm==4.6.0
+scipy==1.17.1
+matplotlib==3.10.8
+openpyxl==3.1.5
+joblib==1.5.3
+jupyter
+nbconvert==7.17.1
+ipykernel==7.2.0

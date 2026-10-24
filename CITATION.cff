@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Bu çalışmayı kullanırsanız lütfen aşağıdaki şekilde atıf yapın."
+title: "Çalışanlar Neden Ayrılmayı Düşünür? 2024 FEVS Analizi"
+authors:
+  - given-names: Ahmet
+date-released: 2026-10-24
+license: MIT
+keywords: [FEVS, turnover intention, employee engagement, machine learning, SHAP]

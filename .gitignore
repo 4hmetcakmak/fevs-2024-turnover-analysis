@@ -1,0 +1,23 @@
+# Ham ve işlenmiş veri GitHub'a yüklenmez (boyut sınırı + veri OPM'den indirilmeli)
+data/*
+!data/README.md
+
+# Eğitilmiş model dosyaları (yeniden üretilebilir)
+models/*
+!models/.gitkeep
+
+# Büyük tablo (içinde 20 bin satırlık ham veri örneklemi var; yeniden üretilebilir)
+reports/tables/FEVS2024_analiz_tablolari.xlsx
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
+desktop.ini
