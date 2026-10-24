@@ -1,0 +1,90 @@
+,AUC_düşüşü,ss,açıklama
+Q88,0.016023678178363105,0.0011020749397047459,I feel a strong personal attachment to my organization.
+Q71,0.015984343881834822,0.0006478750750856393,"Considering everything, how satisfied are you with your pay?"
+agency,0.01386115168656965,0.0002974510071728088,Ajans
+DFEDTEN,0.008754274801130816,0.0004725476097140765,Federal kıdem
+Q86,0.008434650341217043,0.0006364636172126962,My job inspires me.
+Q6,0.007481327504850606,0.0003949617829086317,My talents are used well in the workplace.
+Q63,0.004622453480072434,0.00029012435283571247,Senior leaders demonstrate support for Work-Life programs.
+DMIL,0.003615538527913964,0.00019696278341400277,Askerlik geçmişi
+Q5,0.0032867091294581283,0.00013858246834966308,My workload is reasonable.
+Q91,0.002309635969042323,0.00024089802770267348,Tele-çalışma durumu
+Q87,0.00219242178217068,0.0003157045752841807,The work I do gives me a sense of accomplishment.
+Q47,0.00110387547851661,0.00026236362437167843,I believe the results of this survey will be used to make my agency a better place to work.
+Q90,0.0009919353151576955,0.0002239935684181911,It is important to me that my work contribute to the common good.
+Q1,0.000800463931702374,0.00034971870056898493,I am given a real opportunity to improve my skills in my organization.
+Q33,0.0007421742972837375,0.00012168247575517587,Employees in my work unit consistently look for ways to improve customer service.
+Q45,0.0006664354335089347,7.605951577376227e-05,"In my organization, arbitrary action, personal favoritism, and/or political coercion are not tolerated."
+Q69,0.0006181435118156239,0.0001800173062349798,How satisfied are you with the recognition you receive for doing a good job?
+DAGEGRP,0.0005754150345625986,0.0001555333976871344,Yaş grubu (kuşak)
+Q34,0.0005425232361136642,9.613269239699185e-05,Employees in my work unit support my need to balance my work and personal responsibilities.
+Q25,0.0004384004046973737,0.00011989687504976922,I can influence decisions in my work unit.
+Q67,0.00041039352778837745,0.0002016726273380205,How satisfied are you with your involvement in decisions that affect your work?
+Q14,0.00040130883731355943,0.00010652928937233424,I can make decisions about my work without getting permission first.
+Q16_6,0.0003884873070845914,0.00011514750285756008,In my work unit poor performers usually (select all that apply):
+Q11,0.0003852490143268679,6.605430369081813e-05,I am held accountable for the quality of work I produce.
+Q3,0.00038186418351234447,0.00017431629228561904,My work gives me a feeling of personal accomplishment.
+Q38,0.0003676355375804574,8.689583980967039e-05,I have a good understanding of my organization’s priorities.
+DDIS,0.00034342658696033074,0.00013399880733152073,Engellilik
+DRNO,0.00030507373385683473,0.00015954618642380577,Irk
+Q8,0.00029622551652090195,7.090041054380678e-05,"I can disclose a suspected violation of any law, rule, or regulation without fear of reprisal."
+Q61,0.0002862064695487998,0.00023633366615449588,"Overall, how good a job do you feel is being done by the manager directly above your immediate supervisor?"
+Q24,0.00027976445104468023,8.346891905049746e-05,"New hires in my work unit (i.e., hired in the past year) have the right skills to do their jobs."
+Q31,0.00025509635846273265,5.881539650685555e-05,Employees in my work unit approach change as an opportunity.
+Q64,0.0002434643622569362,1.3481728649769457e-05,Management encourages innovation.
+Q49,0.0002359103376690097,0.00014591256103441133,My supervisor supports my need to balance work and other life issues.
+Q52,0.00018963128657045747,0.00014353586070726753,I have trust and confidence in my supervisor.
+Q12,0.0001880072016258172,8.55594938617478e-06,I have a clear idea of how well I am doing my job.
+Q20,0.0001872369963049995,4.079378429702288e-05,Employees in my work unit meet the needs of our customers.
+Q89,0.00017394203299007463,8.915697506364602e-05,I identify with the mission of my organization.
+Q43,0.00017294724334075232,7.209040278053781e-05,My organization has prepared me for potential physical security threats.
+Q9,0.00017110508729471322,1.3076941275390959e-05,I have enough information to do my job well.
+DSUPER,0.00013956447885721257,4.8452186274588056e-05,Yöneticilik
+Q19,0.00012835030393539468,1.5532620885690558e-05,My work unit has the job-relevant knowledge and skills necessary to accomplish organizational goals.
+Q17,0.0001261696950991542,9.049820184169589e-05,"In my work unit, differences in performance are recognized in a meaningful way."
+Q58,0.0001131648406380581,8.183780405536224e-05,My organization's senior leaders maintain high standards of honesty and integrity.
+Q36,0.00011232773733878727,4.033653548748937e-06,Employees are protected from health and safety hazards on the job.
+Q53,8.710745109204628e-05,3.983971970643268e-05,My supervisor holds me accountable for achieving results.
+Q65,8.57773177909138e-05,1.9947857654466798e-05,Management makes effective changes to address challenges facing our organization.
+Q44,7.229162512882119e-05,1.7189137244251036e-05,My organization has prepared me for potential cybersecurity threats.
+Q62,6.950137026047927e-05,6.010078169983485e-05,I have a high level of respect for my organization's senior leaders.
+Q42,6.056875331494904e-05,9.446706940393788e-06,My organization effectively adapts to changing government priorities.
+Q35,5.864016416875136e-05,1.6523744748813764e-05,Employees are recognized for providing high quality products and services.
+Q2,5.545665363911508e-05,9.110004519531346e-06,I feel encouraged to come up with new and better ways of doing things.
+Q27,5.2290307292590654e-05,9.514413451747989e-05,"My work unit commits resources to develop new ideas (e.g., budget, staff, time, expert support)."
+Q4,5.0129546304159924e-05,6.952956322968874e-05,I know what is expected of me on the job.
+Q41,4.884239147162628e-05,1.64099767727631e-05,The approval process in my organization allows timely delivery of my work.
+Q13,4.866810034516907e-05,5.104664481155559e-05,I have the autonomy to decide how I do my job.
+Q30,4.7519880279659844e-05,1.6594987886546113e-05,Employees in my work unit incorporate new ideas into their work.
+Q32,4.7409760430642635e-05,2.184469628301163e-05,Employees in my work unit consider customer needs a top priority.
+DHISP,4.646903407434788e-05,4.242431048232382e-05,Hispanik köken
+Q66,4.552856594242094e-05,2.3255703545551824e-05,Management involves employees in decisions that affect their work.
+Q39,4.473808137543204e-05,2.420014588701997e-05,"My organization shares results (for example, town halls, email, distribution of reports) from the Federal Employee Viewpoint Survey (FEVS)."
+Q51,4.315897992028065e-05,4.671412717568013e-05,My supervisor treats me with respect.
+Q57,4.070453413755152e-05,2.6408724496867588e-05,"In my organization, senior leaders generate high levels of motivation and commitment in the workforce."
+Q21,2.64753899948215e-05,4.308957888862139e-06,Employees in my work unit contribute positively to my agency's performance.
+DSEX,2.1346634606326614e-05,8.208970653399841e-05,Cinsiyet
+Q59,1.8574115361658095e-05,5.949143251000455e-06,Managers communicate the goals of the organization.
+Q16_3,1.2886371082284262e-05,1.3988492873615804e-05,In my work unit poor performers usually (select all that apply):
+Q7,1.2453247029475811e-05,1.5871212652322076e-05,I know how my work relates to the agency's goals.
+Q18,1.1563191003668058e-05,4.461921967139197e-05,Employees in my work unit share job knowledge.
+Q23,9.672077157333684e-06,4.1209760600100865e-06,Employees in my work unit adapt to changing priorities.
+Q60,8.550576574969012e-06,1.3312005500682979e-05,"Managers promote communication among different work units (for example, about projects, goals, needed resources)."
+Q50,8.40917080561591e-06,5.72211642812804e-06,My supervisor listens to what I have to say.
+Q29,6.862259269306096e-06,6.8119110166101366e-06,Employees in my work unit consistently look for new ways to improve how they do their work.
+Q22,6.519088129097739e-06,4.577954346692629e-06,Employees in my work unit produce high-quality work.
+Q26,2.222892124222516e-06,7.177110121700066e-06,I know what my work unit’s goals are.
+Q37,8.748121878010551e-07,1.2884379399834217e-06,My organization is successful at accomplishing its mission.
+Q28,-3.844692155012079e-07,4.1727882014364223e-05,My work unit successfully manages disruptions to our work.
+Q15,-4.1487131996476023e-07,1.4703864680126514e-05,The people I work with cooperate to get the job done.
+Q40,-2.6325114754014813e-06,8.847279056720921e-06,Information is openly shared in my organization.
+Q16_5,-2.866780653939157e-06,3.7871581348385295e-06,In my work unit poor performers usually (select all that apply):
+Q16_1,-3.930988558738709e-06,1.1126872187875467e-05,In my work unit poor performers usually (select all that apply):
+Q54,-8.595400558641941e-06,3.0365348381614242e-05,"Overall, how good a job do you feel is being done by your immediate supervisor?"
+Q68,-9.443050810150252e-06,1.814219253652197e-05,How satisfied are you with the information you receive from management on what's going on in your organization?
+Q16_4,-1.2486849555644794e-05,0.00010783640355230735,In my work unit poor performers usually (select all that apply):
+Q10,-2.6021376918872186e-05,2.0876058599090876e-05,I receive the training I need to do my job well.
+Q56,-2.6933646149622053e-05,1.008524167399764e-05,My supervisor provides me with performance feedback throughout the year.
+Q55,-3.810885802450296e-05,2.4533563604178898e-05,My supervisor provides me with constructive suggestions to improve my job performance.
+Q48,-4.2057515145521585e-05,5.44088965598392e-05,Supervisors in my work unit support employee development.
+Q16_2,-0.00023197800056266407,0.0002618230446720968,In my work unit poor performers usually (select all that apply):

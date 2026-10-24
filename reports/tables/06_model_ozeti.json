@@ -1,0 +1,344 @@
+{
+  "veri": {
+    "etiketli_satir": 632298,
+    "etiketsiz_cikarilan": 41909,
+    "train": 505838,
+    "test": 126460,
+    "ozellik_sayisi": 89,
+    "ayrilma_orani_agirlikli": 0.3683733119132664,
+    "test_parmak_izi": "08e7e1093d3d3350"
+  },
+  "ayar": {
+    "orneklem": 60000,
+    "deneme_sayisi": 12,
+    "cv_kat": 3
+  },
+  "cv": {
+    "Baseline: ortalama": {
+      "auc": 0.5,
+      "ss": 0.0,
+      "sure_sn": 1.9232354164123535,
+      "parametreler": {}
+    },
+    "Baseline: tek soru (Q88)": {
+      "auc": 0.689476732967084,
+      "ss": 0.004797665460918879,
+      "sure_sn": 0.39730191230773926,
+      "parametreler": {}
+    },
+    "Lojistik regresyon": {
+      "auc": 0.7695450128835772,
+      "ss": 0.00386035856337031,
+      "sure_sn": 113.69176864624023,
+      "parametreler": {
+        "clf__C": 0.03148911647956861
+      }
+    },
+    "Random Forest": {
+      "auc": 0.7686276886679106,
+      "ss": 0.002914344663968178,
+      "sure_sn": 469.95958256721497,
+      "parametreler": {
+        "clf__min_samples_leaf": 20,
+        "clf__max_samples": 0.3,
+        "clf__max_features": 0.4,
+        "clf__max_depth": 20
+      }
+    },
+    "HistGradientBoosting": {
+      "auc": 0.7771894080940788,
+      "ss": 0.0033148337216840473,
+      "sure_sn": 717.5296010971069,
+      "parametreler": {
+        "clf__l2_regularization": 10.0,
+        "clf__learning_rate": 0.044718364155969796,
+        "clf__max_iter": 200,
+        "clf__max_leaf_nodes": 31,
+        "clf__min_samples_leaf": 100
+      }
+    },
+    "LightGBM": {
+      "auc": 0.7794358925799735,
+      "ss": 0.0035339619021782253,
+      "sure_sn": 242.76783156394958,
+      "parametreler": {
+        "clf__colsample_bytree": 0.7,
+        "clf__learning_rate": 0.02226874072845983,
+        "clf__min_child_samples": 300,
+        "clf__n_estimators": 400,
+        "clf__num_leaves": 31,
+        "clf__reg_lambda": 10.0,
+        "clf__subsample": 0.85
+      }
+    }
+  },
+  "secilen_model": "HistGradientBoosting",
+  "cv_lideri": "LightGBM",
+  "esik": 0.3200000000000002,
+  "test": {
+    "LightGBM": {
+      "ROC_AUC": 0.791,
+      "AUC_%95_alt": 0.7881,
+      "AUC_%95_üst": 0.7937,
+      "PR_AUC": 0.7031,
+      "Brier": 0.1742,
+      "LogLoss": 0.5243,
+      "CV_AUC": 0.7794
+    },
+    "HistGradientBoosting": {
+      "ROC_AUC": 0.791,
+      "AUC_%95_alt": 0.788,
+      "AUC_%95_üst": 0.7937,
+      "PR_AUC": 0.7027,
+      "Brier": 0.1742,
+      "LogLoss": 0.5244,
+      "CV_AUC": 0.7772
+    },
+    "Random Forest": {
+      "ROC_AUC": 0.7828,
+      "AUC_%95_alt": 0.7797,
+      "AUC_%95_üst": 0.7856,
+      "PR_AUC": 0.6903,
+      "Brier": 0.1778,
+      "LogLoss": 0.5334,
+      "CV_AUC": 0.7686
+    },
+    "Lojistik regresyon": {
+      "ROC_AUC": 0.7803,
+      "AUC_%95_alt": 0.7773,
+      "AUC_%95_üst": 0.7831,
+      "PR_AUC": 0.6877,
+      "Brier": 0.1782,
+      "LogLoss": 0.5352,
+      "CV_AUC": 0.7695
+    },
+    "Baseline: tek soru (Q88)": {
+      "ROC_AUC": 0.6952,
+      "AUC_%95_alt": 0.6913,
+      "AUC_%95_üst": 0.6993,
+      "PR_AUC": 0.5589,
+      "Brier": 0.2019,
+      "LogLoss": 0.592,
+      "CV_AUC": 0.6895
+    },
+    "Baseline: ortalama": {
+      "ROC_AUC": 0.5,
+      "AUC_%95_alt": 0.5,
+      "AUC_%95_üst": 0.5,
+      "PR_AUC": 0.3686,
+      "Brier": 0.2327,
+      "LogLoss": 0.6582,
+      "CV_AUC": 0.5
+    }
+  },
+  "esik_metrikleri": {
+    "eşik 0.32 (eğitimde seçilen)": {
+      "Doğruluk (accuracy)": 0.7078,
+      "Kesinlik (precision)": 0.5818,
+      "Duyarlılık (recall)": 0.7373,
+      "F1": 0.6504
+    },
+    "eşik 0.50": {
+      "Doğruluk (accuracy)": 0.7447,
+      "Kesinlik (precision)": 0.7035,
+      "Duyarlılık (recall)": 0.5311,
+      "F1": 0.6052
+    },
+    "Baseline: herkese 'kalır'": {
+      "Doğruluk (accuracy)": 0.6314,
+      "Kesinlik (precision)": 0.0,
+      "Duyarlılık (recall)": 0.0,
+      "F1": 0.0
+    }
+  },
+  "sizinti_deneyi": {
+    "Q46/Q70/Q72 olmadan": 0.7771894080940788,
+    "Q46/Q70/Q72 ile": 0.7914047511535207
+  },
+  "onem_ilk10": {
+    "Q88": {
+      "AUC_düşüşü": 0.016,
+      "açıklama": "I feel a strong personal attachment to my organization."
+    },
+    "Q71": {
+      "AUC_düşüşü": 0.016,
+      "açıklama": "Considering everything, how satisfied are you with your pay?"
+    },
+    "agency": {
+      "AUC_düşüşü": 0.0139,
+      "açıklama": "Ajans"
+    },
+    "DFEDTEN": {
+      "AUC_düşüşü": 0.0088,
+      "açıklama": "Federal kıdem"
+    },
+    "Q86": {
+      "AUC_düşüşü": 0.0084,
+      "açıklama": "My job inspires me."
+    },
+    "Q6": {
+      "AUC_düşüşü": 0.0075,
+      "açıklama": "My talents are used well in the workplace."
+    },
+    "Q63": {
+      "AUC_düşüşü": 0.0046,
+      "açıklama": "Senior leaders demonstrate support for Work-Life programs."
+    },
+    "DMIL": {
+      "AUC_düşüşü": 0.0036,
+      "açıklama": "Askerlik geçmişi"
+    },
+    "Q5": {
+      "AUC_düşüşü": 0.0033,
+      "açıklama": "My workload is reasonable."
+    },
+    "Q91": {
+      "AUC_düşüşü": 0.0023,
+      "açıklama": "Tele-çalışma durumu"
+    }
+  },
+  "kusak_betimsel": {
+    "Bilinmiyor (maskeli)": {
+      "n": 41592.0,
+      "%_ayrılma": 44.4,
+      "%_No": 55.6,
+      "%_Yes, other": 15.0,
+      "%_Yes, to take another job within the Federal Government": 24.37,
+      "%_Yes, to take another job outside the Federal Government": 5.03
+    },
+    "Genç kuşak (<40: Y/Z)": {
+      "n": 150776.0,
+      "%_ayrılma": 38.64,
+      "%_No": 61.36,
+      "%_Yes, other": 7.64,
+      "%_Yes, to take another job within the Federal Government": 24.55,
+      "%_Yes, to take another job outside the Federal Government": 6.46
+    },
+    "Olgun kuşak (40+: X/Boomer)": {
+      "n": 439930.0,
+      "%_ayrılma": 35.42,
+      "%_No": 64.58,
+      "%_Yes, other": 13.98,
+      "%_Yes, to take another job within the Federal Government": 18.3,
+      "%_Yes, to take another job outside the Federal Government": 3.13
+    }
+  },
+  "kusak_kidem": {
+    "Genç kuşak (<40: Y/Z)": {
+      "Ten years or fewer": 38.75,
+      "Eleven to 20 years": 38.14,
+      "More than 20 years": 39.91
+    },
+    "Olgun kuşak (40+: X/Boomer)": {
+      "Ten years or fewer": 33.78,
+      "Eleven to 20 years": 35.43,
+      "More than 20 years": 37.08
+    }
+  },
+  "kusak_adalet": {
+    "Genç kuşak (<40: Y/Z)": {
+      "n_test": 30068,
+      "ROC_AUC": 0.8167,
+      "gerçek_%ayrılma": 38.7982,
+      "tahmin_ort_%": 38.4962,
+      "duyarlılık": 0.7853,
+      "kesinlik": 0.6109
+    },
+    "Olgun kuşak (40+: X/Boomer)": {
+      "n_test": 88012,
+      "ROC_AUC": 0.7784,
+      "gerçek_%ayrılma": 35.4166,
+      "tahmin_ort_%": 35.3772,
+      "duyarlılık": 0.7066,
+      "kesinlik": 0.5663
+    },
+    "Bilinmiyor (maskeli)": {
+      "n_test": 8380,
+      "ROC_AUC": 0.7962,
+      "gerçek_%ayrılma": 44.0736,
+      "tahmin_ort_%": 44.7066,
+      "duyarlılık": 0.8268,
+      "kesinlik": 0.6045
+    }
+  },
+  "kusak_onem_ilk8": {
+    "Genç kuşak (<40: Y/Z)": {
+      "Q71": 0.0197,
+      "Q88": 0.016,
+      "agency": 0.011,
+      "Q86": 0.0079,
+      "Q6": 0.006,
+      "Q63": 0.0054,
+      "Q5": 0.0022,
+      "Q87": 0.0017
+    },
+    "Olgun kuşak (40+: X/Boomer)": {
+      "Q71": 0.0152,
+      "agency": 0.015,
+      "DFEDTEN": 0.0129,
+      "Q88": 0.012,
+      "Q86": 0.0078,
+      "Q6": 0.0062,
+      "Q63": 0.0032,
+      "DMIL": 0.0032
+    }
+  },
+  "kusak_tepki": {
+    "Q71 | Genç kuşak (<40: Y/Z)": {
+      "1": 70.2,
+      "2": 50.7,
+      "3": 39.0,
+      "4": 28.7,
+      "5": 17.9
+    },
+    "Q71 | Olgun kuşak (40+: X/Boomer)": {
+      "1": 66.7,
+      "2": 49.6,
+      "3": 41.8,
+      "4": 30.5,
+      "5": 21.5
+    },
+    "Q86 | Genç kuşak (<40: Y/Z)": {
+      "1": 84.5,
+      "2": 68.3,
+      "3": 44.5,
+      "4": 28.6,
+      "5": 17.9
+    },
+    "Q86 | Olgun kuşak (40+: X/Boomer)": {
+      "1": 79.4,
+      "2": 65.1,
+      "3": 44.1,
+      "4": 29.0,
+      "5": 20.1
+    },
+    "Q88 | Genç kuşak (<40: Y/Z)": {
+      "1": 83.7,
+      "2": 66.2,
+      "3": 42.4,
+      "4": 28.7,
+      "5": 18.4
+    },
+    "Q88 | Olgun kuşak (40+: X/Boomer)": {
+      "1": 79.6,
+      "2": 64.4,
+      "3": 43.1,
+      "4": 29.0,
+      "5": 20.6
+    },
+    "Q6 | Genç kuşak (<40: Y/Z)": {
+      "1": 82.2,
+      "2": 66.2,
+      "3": 47.9,
+      "4": 30.3,
+      "5": 19.1
+    },
+    "Q6 | Olgun kuşak (40+: X/Boomer)": {
+      "1": 74.5,
+      "2": 60.2,
+      "3": 43.6,
+      "4": 28.9,
+      "5": 20.1
+    }
+  }
+}
